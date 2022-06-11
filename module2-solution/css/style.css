@@ -10,6 +10,7 @@
     width: 30%;
     padding: 0px 0px 10px 10px;
     margin: 20px;
+    display: inline-block;
     
 }
 #span1{
@@ -29,7 +30,7 @@
     width: 30%;
     margin: 20px;
     padding: 0px 0px 10px 10px;
-    align-items: center;
+    display: inline-block;
 }
 #span2{
     border: 3px solid black;
@@ -48,6 +49,7 @@
     width: 30%;
     margin: 20px;
     padding: 0px 0px 10px 10px;
+    display: inline-block;
 }
 #span3{
     border: 3px solid black;
@@ -62,16 +64,29 @@
 }
 @media screen and (min-width: 992px) {
     #div{
-        display: flex;
+        border: 1px solid white;
+        position: relative;
+        
     }
     #div1{
         width: 30%;
+        display: inline-block;
+        position: absolute;
+        top: 100px;
     }
     #div2{
         width: 30%;
+        display: inline-block;
+        position: absolute;
+        top: 100px;
+        left: 450px;
     }
     #div3{
         width: 30%;
+        display: inline-block;
+        position:absolute;
+        top: 100px;
+        left: 900px;
     }
 }
 @media screen and (max-width: 991px) and (min-width:786px)
